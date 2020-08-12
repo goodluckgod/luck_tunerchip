@@ -1,0 +1,113 @@
+.monitor {
+    display:block;
+    background-image: url("tabletbg.png");
+    background-size: 103%;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: 5%;
+    left: 380px;
+    height:700px;
+    width:100%;
+    padding:0 !important;
+    z-index: 2;
+    user-select: none;
+}
+
+.monitor-brand {
+    display:block;
+    position:fixed;
+    text-align:center;
+    height:100%;
+    width:100%;
+    top:81%;
+    font-size:24px;
+    font-weight: 700;
+    font-family: Impact, Charcoal, sans-serif;
+    user-select: none;
+}
+
+.program {
+    display:block;
+    position:relative;
+    top: 108px;
+    left: 181.5px;
+    height: 470px;
+    width: 804px;
+    background: rgb(98,98,98);
+    background: linear-gradient(0deg, rgba(98,98,98,1) 0%, rgba(204,204,204,1) 100%);
+    background-size: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-bottom:19px;
+    user-select: none;
+}
+
+.program-top-bar {
+    display:block;
+    padding-left:345px;
+    padding-right:10px;
+    padding-top:6px;
+    margin-bottom:25px;
+
+    width:100%;
+    height:40px;
+    color:white;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(20,20,20,1) 100%);
+    font-family: Gill Sans, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    user-select: none;
+}
+
+.txt {
+    color:rgb(0, 0, 0); 
+    font-weight: 500;
+    font-family: Gill Sans, sans-serif;
+    font-size: 21px;
+    padding-bottom:8px;
+}
+
+.colbtns {
+    left: 440px;
+    bottom: 260px;
+    position: relative;
+    width: 140px;
+    z-index: 3;
+    user-select: none;
+    border-radius: 0px;
+}
+
+.colbtns:hover {
+    color: rgb(0, 0, 0);
+    background-color: #000000;
+    border-color: #000000;
+    user-select: none;
+}
+
+.colbtnd {
+    left: 620px;
+    bottom: 297px;
+    position: relative;
+    width: 140px;
+    z-index: 3;
+    user-select: none;
+}
+
+.ecutext-container {
+    background-color: #000000;
+    border-radius: 5px;
+    position: relative;
+    height: 235px;
+    width: 380px;
+    left: 413px;
+    bottom: 290px;
+    z-index: 1;
+    user-select: none;
+}
+
+.massbg {
+    background: none;
+    position: center;
+    left: 900px;
+}
